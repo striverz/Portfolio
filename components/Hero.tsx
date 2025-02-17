@@ -3,6 +3,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import ResumeBtn from "./ui/ResumeBtn";
+import { MdOutlineFileDownload } from "react-icons/md";
+import { GrProjects } from "react-icons/gr";
 
 const Hero = () => {
   return (
@@ -64,13 +67,22 @@ const Hero = () => {
             Hi! I&apos;m ManikantA Korimilli from India.
           </p>
 
-          <a href="#about">
+          <div className="flex py-4 gap-10 ">
+            <a>
+              <ResumeBtn title={"MY WORK"} icon={<MdOutlineFileDownload />} />
+            </a>
+            <a>
+              <ResumeBtn title={"RESUME"} icon={<MdOutlineFileDownload />} />
+            </a>
+          </div>
+
+          {/* <a href="#about">
             <MagicButton
               title="SHOW MY WORK"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
