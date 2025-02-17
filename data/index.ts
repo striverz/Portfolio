@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Data Structures and Algorithms </>",
+    title: "DSA and Competitive Programming.",
     description: "I am good at",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -124,31 +124,31 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "OwlCoder Intern - THUB",
+    desc: "  Provided mentorship and support to junior interns and peers sharing knowledge",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: " Coding Expertise AI Trainer",
+    desc: "Contributed to AI model training by evaluating and ranking AI-generated codes.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelancer",
+    desc: "I have worked as a freelance frontend developer, delivering projects that focus on.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Tech Content Writing",
+    desc: "I write technical blogs on Dev.to and Medium, breaking down complex topics into simplified.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
