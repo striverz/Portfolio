@@ -1,1 +1,1 @@
-<img src="./public/portfolio.png">
+<a href="https://striverz.org"><img src="./public/portfolio.png"><a/>

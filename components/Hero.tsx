@@ -71,7 +71,7 @@ const Hero = () => {
             <a>
               <ResumeBtn title={"MY WORK"} icon={<MdOutlineFileDownload />} />
             </a>
-            <a href="/MANIKANTA2.pdf" download>
+            <a href="/MANIKANTA.pdf" download>
               <ResumeBtn title={"RESUME"} icon={<MdOutlineFileDownload />} />
             </a>
           </div>
