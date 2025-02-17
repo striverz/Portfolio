@@ -160,11 +160,17 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/striverzx",
+    img: "/codeforces.svg",
+    link: "https://codeforces.com/profile/striverz",
   },
   {
     id: 3,
+    img: "/twit.svg",
+    link: "https://x.com/striverzx",
+  },
+
+  {
+    id: 4,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/striverz/",
   },
