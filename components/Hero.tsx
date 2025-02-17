@@ -68,11 +68,14 @@ const Hero = () => {
           </p>
 
           <div className="flex py-4 gap-10 ">
-            <a>
+            <a href="#projects">
               <ResumeBtn title={"MY WORK"} icon={<MdOutlineFileDownload />} />
             </a>
             <a href="/MANIKANTA.pdf" download>
-              <ResumeBtn title={"RESUME"} icon={<MdOutlineFileDownload />} />
+              <ResumeBtn
+                title={"RESUME"}
+                icon={<MdOutlineFileDownload className="text-[18px]" />}
+              />
             </a>
           </div>
 
