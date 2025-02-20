@@ -53,11 +53,6 @@ const Hero = () => {
             CODE CREATE <span className="text-purple">CONQUER</span>
           </p>
 
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
             words="Web Dev, Competitive Programmer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -78,14 +73,6 @@ const Hero = () => {
               />
             </a>
           </div>
-
-          {/* <a href="#about">
-            <MagicButton
-              title="SHOW MY WORK"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a> */}
         </div>
       </div>
     </div>
