@@ -160,8 +160,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/codeforces.svg",
-    link: "https://codeforces.com/profile/striverz",
+    img: "/leetcode.svg",
+    link: "https://leetcode.com/u/striverz/",
   },
   {
     id: 3,
